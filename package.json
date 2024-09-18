@@ -10,15 +10,38 @@
   "scripts": {
     "release": "vsce publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaryabdev/codeastro-vscode-themes.git"
+  },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "codeastro",
+    "theme",
+    "dark",
+    "teal",
+    "cyan",
+    "pink"
+  ],
+  "author": "Talha Zartav <zaryabdev404@@gmail.com> (https://zaryab.site/)",
+  "license": "MIT",
+  "publisher": "codeastro",
+  "bugs": {
+    "url": "https://github.com/zaryabdev/codeastro-vscode-themes/issues"
+  },
+  "homepage": "https://github.com/zaryabdev/codeastro-vscode-themes#readme",
+  "extensionKind": [
+    "ui",
+    "workspace"
   ],
   "contributes": {
     "themes": [
       {
         "label": "Codeastro Themes",
         "uiTheme": "vs-dark",
-        "path": "./themes/Codeastro Themes-color-theme.json"
+        "path": "./themes/codeastro-dark-color-theme.json"
       }
     ]
   }
