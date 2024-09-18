@@ -1,0 +1,25 @@
+{
+  "name": "codeastro-vscode-themes",
+  "displayName": "Codeastro Themes",
+  "description": "A collection of VSCode themes based on Codeastro's brand colors",
+  "version": "0.0.1",
+  "icon": "./images/logo.png",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "scripts": {
+    "release": "vsce publish"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Codeastro Themes",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Codeastro Themes-color-theme.json"
+      }
+    ]
+  }
+}
