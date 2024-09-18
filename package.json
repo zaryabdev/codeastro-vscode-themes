@@ -3,7 +3,7 @@
   "displayName": "Codeastro Themes",
   "description": "A collection of VSCode themes based on Codeastro's brand colors",
   "version": "0.0.1",
-  "icon": "./images/logo.png",
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.93.0"
   },
